@@ -38,7 +38,8 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
 }
-.header-item:hover {
+.header-item:hover,
+.header-item:focus {
     color: #2196F3;
 }
 .header-item-studio {
