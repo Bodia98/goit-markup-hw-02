@@ -1,0 +1,284 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+/* -------------Заголовок----------------- */
+.header {
+    background-color: #FFFFFF;
+}
+.header-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.header-link:focus {
+    
+}
+.web {
+    color: #2196F3;
+}
+.studio {
+    color: #000000;
+}
+.header-nav {
+    list-style: none;
+}
+
+/* --------------------Навігація------------------- */
+.header-nav {}
+
+.header-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.header-item:hover {
+    color: #2196F3;
+}
+.header-item-studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.header-item-portfolio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.header-contact {
+    list-style: none;
+}
+.header-item-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-item-contact:hover,
+.header-item-contact:focus {
+    color: #2196F3;
+}
+
+/* ----------------Головна секція------------- */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* -------------Переваги---------------------- */
+.benefits-title-visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.benefits-list {
+    list-style: none;
+}
+.benefits-subtitle {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.benefits-text {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* -----------Чи ми займаємось, фото---------- */
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.31;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.work-list {
+    list-style: none;
+}
+
+/* --------------Наша команда----------------- */
+.team {
+    background: #F5F4FA;
+}
+.team-title {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-list {
+    list-style: none;
+}
+.tean-item {
+    background: #FFFFFF;
+}
+.team-subtitle {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-text {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* --------------Наші проекти----------------- */
+
+.project-title-visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.project-list {
+    list-style: none;
+}
+.project-button {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.project-button:hover,
+.project-button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;;
+}
+.project-items {
+    list-style: none;
+}
+/* ------------Список фото з описом----------- */
+.project-subtitle {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.project-text {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* ----------------Підвал--------------------- */
+.footer {
+    background-color: #2F303A;
+}
+.footer-link {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.web {
+    color: #2196F3;
+}
+.footer-studio {
+    color: #FFFFFF;
+}
+.footer-list {
+    list-style: none;
+}
+.footer-item-adress {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-item-contacts {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-item-adress:hover,
+.footer-item-adress:focus {
+    color: #2196F3;
+}
+.footer-item-contacts:hover,
+.footer-item-contacts:focus {
+    color: #2196F3;
+}
